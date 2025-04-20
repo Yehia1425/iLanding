@@ -1,0 +1,134 @@
+.pricing .pricing-card {
+    height: 100%;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.pricing .pricing-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+}
+
+.pricing .pricing-card .price {
+    margin-bottom: 1.5rem;
+}
+
+
+.pricing .pricing-card .price .currency {
+    font-size: 1.5rem;
+    font-weight: 600;
+    vertical-align: top;
+    line-height: 1;
+}
+
+.pricing .pricing-card .price .amount {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.pricing .pricing-card .price .period {
+    font-size: 1rem;
+    color: 
+color-mix(in srgb, #212529, transparent 40%);
+}
+
+.pricing .pricing-card .description {
+    margin-bottom: 2rem;
+    font-size: 0.975rem;
+}
+
+.pricing .pricing-card h4 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+}
+
+.pricing .pricing-card .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.pricing .pricing-card .features-list li {
+    display: flex
+;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+
+ul
+.pricing .pricing-card .btn.btn-primary {
+    background: #0d83fd;
+    border: none;
+    color: #fff;
+}
+
+
+.pricing .pricing-card .btn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.pricing .pricing-card .features-list li i {
+    color: #0d83fd;
+    margin-right: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.pricing .pricing-card {
+    height: 100%;
+    padding: 2rem;
+    background:#fff;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+section, .section {
+    color: #212529;
+    background-color: #f3f9ff;
+    padding: 60px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.pricing .pricing-card.popular {
+    background: #0d83fd;
+    color: #fff !important;
+}

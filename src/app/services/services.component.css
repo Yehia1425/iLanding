@@ -1,0 +1,73 @@
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+.services{
+    background-color: #f3f9ff;
+}
+
+.services .service-card {
+    height: 100%;
+    padding: 30px;
+    background:#fff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.services .service-card .icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    background: 
+color-mix(in srgb, #0d83fd, transparent 90%);
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #0d83fd;
+    font-size: 28px;
+    transition: all 0.3s ease;
+    line-height: 1;
+}
+
+.services .service-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+}
+
+.services .service-card p {
+    margin-bottom: 25px;
+    color: 
+color-mix(in srgb, #212529, transparent 25%);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+section, .section {
+    color: #212529;
+    background-color: #f3f9ff;
+    padding: 60px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+}

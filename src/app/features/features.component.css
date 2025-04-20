@@ -1,0 +1,243 @@
+.features .section-title{
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 10rem;
+    
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #2d465e;
+    font-family: "Nunito", sans-serif;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+.features .nav-tabs {
+    border: 0;
+    background-color: color-mix(in srgb, #0d83fd, transparent 96%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 6px;
+    width: auto;
+}
+
+
+.features .nav-link.active {
+    background-color: #0d83fd;
+    border-color:#0d83fd;
+    border-radius: 50px;
+    color: #fff;
+}
+.features .nav-link {
+
+    border-radius: 50px;
+    color: black;
+}
+
+.features .nav-item {
+    margin: 0;
+    padding: 0 5px 0 0;
+}
+
+.features i {
+    padding-right: 15px;
+}
+
+
+.features .nav-link {
+    background-color: none;
+    color: #2d465e;
+    padding: 10px 30px;
+    transition: 0.3s;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    margin: 0;
+}
+
+.features .tab-pane h3 {
+    color: #2d465e;
+    font-weight: 700;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+.features .tab-pane ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features .tab-pane ul li {
+    padding-top: 10px;
+}
+
+
+
+.features-cards .feature-box.orange {
+    background-color: #fff3e2;
+}
+
+.features-cards .feature-box {
+    height: 100%;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.features-cards{
+    color: #555;
+    background-color: #fff;
+    padding: 60px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+}
+
+
+.features-cards .feature-box i {
+    font-size: 44px;
+    display: inline-block;
+    line-height: 0;
+    color: #0d83fd;
+    margin-bottom: 20px;
+}
+
+.features-cards .feature-box h4{
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+    font-size: 20px;
+    font-weight: 700;
+ margin-top: 20px;
+}
+
+.features-cards .feature-box.orange i {
+    color: #edb86e;
+}
+
+
+.features-2 .feature-item .feature-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+}
+
+.features-2 .feature-item .feature-content p {
+    color: 
+color-mix(in srgb, #212529, transparent 25%);
+    font-size: 15px;
+    margin-bottom: 0;}
+
+    .features-2 .feature-item .feature-icon {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0d83fd;
+        font-size: 24px;
+        border-radius: 50%;
+        background-color: 
+    color-mix(in srgb, #0d83fd, transparent 92%);
+    }
+
+
+
+    .features-2 .phone-mockup {
+        position: relative;
+        padding: 30px 0;
+    }
+
+
+    .testimonials .testimonial-item {
+        background-color: var(--surface-color);
+        box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+        padding: 30px;
+        position: relative;
+        height: 100%;
+        background-color: #fff;
+    }
+
+    .testimonials h2{
+        font-family: "Nunito", sans-serif;
+        font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    }
+    .testimonials p{
+        font-family: "Nunito", sans-serif;
+    }
+    .testimonials .testimonial-item .testimonial-img {
+        width: 90px;
+        border-radius: 50px;
+        border: 6px solid var(--background-color);
+        float: left;
+        margin: 0 10px 0 0;
+    }
+    .testimonials .testimonial-item h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0 5px 0;
+    }
+
+    .testimonials .testimonial-item h4 {
+        font-size: 14px;
+        color: 
+    color-mix(in srgb, #2d465e, transparent 20%);
+        margin: 0;
+    }
+
+    .testimonials .testimonial-item .stars i {
+        color: #ffc107;
+        margin: 0 1px;
+    }
+
+    .testimonials {
+        color: #212529;
+        background-color: #F3F9FF;
+        padding: 60px 0;
+        scroll-margin-top: 90px;
+        overflow: clip;
+    }
+    
+
+    .stats .stats-item {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .stats .stats-item span {
+        color: #2d465e;
+        font-size: 48px;
+        display: block;
+        font-weight: 700;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .stats .stats-item p {
+        color: 
+    color-mix(in srgb, #212529, transparent 40%);
+        padding: 0;
+        margin: 0;
+        font-family: "Nunito", sans-serif;
+        font-weight: 500;
+    }

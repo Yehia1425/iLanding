@@ -1,0 +1,109 @@
+.home{
+    position: relative;
+    padding-top: 160px;
+    background: linear-gradient(135deg, 
+color-mix(in srgb, #0d83fd, transparent 95%) 50%, 
+color-mix(in srgb, #0d83fd, transparent 98%) 25%, transparent 50%);
+}
+
+.company-badge ,.home-btn i{
+        padding-right:5px;
+
+}
+
+.company-badge  i{
+    padding-right:5px;
+
+}
+.home .company-badge{
+    display: inline-flex
+;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: 
+color-mix(in srgb, #0d83fd, transparent 92%);
+    border-radius: 50px;
+    color: #0d83fd;
+    font-weight: 500;
+}
+
+.home .hero h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    font-family: "Nunito", sans-serif;
+    color: #2d465e;
+}
+.home .hero span{
+color: #0d83fd;
+}
+
+.btn-primary{
+    background-color: #0d83fd;
+    border-color: #0d83fd;
+    color:#fff;
+    padding: 0.75rem 2.5rem;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-link{
+    color: #2d465e;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stat-item{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+}
+
+
+.stat-icon{
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: color-mix(in srgb,#0d83fd , transparent 92%);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.stat-item .stat-icon i {
+    font-size: 1.5rem;
+    color: #0d83fd;
+    z-index: 99;
+}
+
+.stat-item .stat-content h4{
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    color: #2d465e;
+}
+
+.stat-item .stat-content p{
+    font-size: 0.875rem;
+    color: 
+color-mix(in srgb, #212529, transparent 40%);
+    margin: 0;
+}
+
+
+.stat-item .stat-icon:hover  {
+    background-color: #0d83fd;
+    color: white !important;
+
+}
+.stat-item .stat-icon:hover i  {
+
+    color: white !important;
+
+}
